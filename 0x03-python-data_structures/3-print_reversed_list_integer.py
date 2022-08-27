@@ -7,7 +7,6 @@ def print_reversed_list_integer(my_list=[]):
     """Reversed list
     """
 
-    rev_list = my_list[::-1]
-
-    for i in range(0, len(rev_list)):
-        print("{}".format(rev_list[i]))
+    my_list = my_list[::-1]
+    for i in range(0, len(my_list)):
+        print("{}".format(my_list[i]))
