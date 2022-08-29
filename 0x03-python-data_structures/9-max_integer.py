@@ -15,7 +15,7 @@ def max_integer(my_list=[]):
     int in a list.
     """
 
-    if not my_list:
+    if my_list == False:
         return None
 
     biggest_int = my_list[0]
@@ -25,6 +25,5 @@ def max_integer(my_list=[]):
             biggest_int = my_list[i]
         else:
             continue
-        i += 1
 
     return biggest_int
