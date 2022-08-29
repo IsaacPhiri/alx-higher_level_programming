@@ -10,7 +10,5 @@ def print_matrix_integer(matrix=[[]]):
     """print matrix
     """
 
-    #for i in range(0, len(matrix)):
-     #   print("{}".format(matrix[i]))
-
-    print('\n'.join(map(''.join, matrix)))
+    for i in matrix:
+        print(' '.join(["{:d}".format(x) for x in i]))
