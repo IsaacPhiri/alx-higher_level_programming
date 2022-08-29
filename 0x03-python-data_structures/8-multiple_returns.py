@@ -11,10 +11,8 @@ def multiple_returns(sentence):
     and first letter.
     """
 
-    if len(sentence) == 0:
-        sentence[0] = None
-        return
-
-    check_len = len(sentence), sentence[0]
-
-    return check_len
+    if len(sentence) > 0:
+        f_word = sentence[0]
+        new_tup = [len(sentence), f_word]
+        return new_tup
+    return (len(sentence), None)
