@@ -10,7 +10,7 @@ def multiple_returns(sentence):
     """Check string and return length
     and first letter.
     """
-    
+
     if len(sentence) == 0:
         sentence = None
         return
