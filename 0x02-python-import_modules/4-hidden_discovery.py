@@ -7,9 +7,10 @@ def main():
     defined by the compiled module hidden_4.pyc
     """
 
-    hidden = (dir(hidden_4)[-3:])
-    for i in hidden:
-        print(i)
+    hidden = (dir(hidden_4))
+    for word in hidden:
+        if word[0] not in '__':
+            print(word)
 
 
 if __name__ == '__main__':
