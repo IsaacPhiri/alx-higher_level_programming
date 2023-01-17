@@ -1,8 +1,10 @@
 #!/usr/bin/node
 'use strict';
 
+
 const request = require("request");
 const url = process.argv[2];
+
 
 let count = 0;
 
